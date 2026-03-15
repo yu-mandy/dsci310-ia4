@@ -24,8 +24,10 @@ reports/index.pdf: results reports/index.qmd
 # clean
 clean:
 	rm -rf results
-	rm -rf reports/qmd_example.html\
-		reports/qmd_example.pdf \
-		reports/qmd_example_files
-	rm -rf docs/qmd_example.html\
-		docs/qmd_example_files
+	rm -rf reports/index.html\
+		reports/index.pdf \
+		reports/index_files \
+		reports/index.tex \
+		reports/index.log \
+	rm -rf docs/index.html\
+		docs/index_files
